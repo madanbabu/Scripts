@@ -1,0 +1,1 @@
+To execute the script, make sure you have enough RAM dependent on the size of the coredump, then chmod +x the script and at a prompt execute the script ./dumpassist.sh /var/core/name_of_your_dumpfile
