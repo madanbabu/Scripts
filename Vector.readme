@@ -1,0 +1,21 @@
+Instructions to Compile and Run
+
+Save the Code: Save the above code into a file named vector_add.cu.
+Compile the Code: Use the NVIDIA compiler nvcc to compile the code. Open a terminal and run:
+
+bash
+
+nvcc -o vector_add vector_add.cu
+
+Run the Program: Execute the compiled program:
+
+bash
+./vector_add
+
+Output
+The program will output the time taken to perform vector addition, which can give you an indication of the performance of your CUDA cluster.
+
+Notes
+Ensure that you have the NVIDIA CUDA Toolkit installed.
+You may need to adjust the number of elements (N) for larger or smaller tests.
+Make sure to run this on a CUDA-enabled GPU to observe meaningful results.
